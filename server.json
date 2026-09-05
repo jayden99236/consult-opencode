@@ -6,12 +6,12 @@
     "url": "https://github.com/jayden99236/consult-opencode",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/jayden99236/consult-opencode/releases/download/v0.1.0/consult-opencode.mcpb",
-      "fileSha256": "60b12f4ab3ca6ccaaa34c57b996c799fac97fe53eed848dba28e3818600cb44a",
+      "identifier": "https://github.com/jayden99236/consult-opencode/releases/download/v0.1.1/consult-opencode.mcpb",
+      "fileSha256": "b3cb7ba8f1601e63448b695e2ef2462fd08e3fb07f0cc4bc724b729693eb8a16",
       "transport": {
         "type": "stdio"
       }
