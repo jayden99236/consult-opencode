@@ -1,6 +1,14 @@
 # consult-opencode
 
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.jayden99236%2Fconsult--opencode-blue)](https://registry.modelcontextprotocol.io/v0/servers?search=consult-opencode)
+
 Delegate a self-contained task to [opencode](https://opencode.ai) as a one-shot subagent, from any coding agent (or human) that can run a shell command — or, more directly, straight from inside an AI chat client via [MCP](#direct-integration-mcp-server).
+
+Listed on the [official MCP Registry](https://registry.modelcontextprotocol.io) as `io.github.jayden99236/consult-opencode`, with a one-click `.mcpb` bundle attached to each [release](https://github.com/jayden99236/consult-opencode/releases) for Claude Desktop and other MCPB-compatible clients.
+
+## Demo
+
+![consult-opencode demo](docs/demo.gif)
 
 ## Why
 

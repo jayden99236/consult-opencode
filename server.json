@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.jayden99236/consult-opencode",
+  "description": "Delegate a self-contained task to opencode's free-tier models as a one-shot subagent.",
+  "repository": {
+    "url": "https://github.com/jayden99236/consult-opencode",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/jayden99236/consult-opencode/releases/download/v0.1.0/consult-opencode.mcpb",
+      "fileSha256": "60b12f4ab3ca6ccaaa34c57b996c799fac97fe53eed848dba28e3818600cb44a",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
