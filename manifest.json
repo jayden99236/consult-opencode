@@ -1,0 +1,34 @@
+{
+  "manifest_version": "0.2",
+  "name": "consult-opencode",
+  "version": "0.1.0",
+  "description": "Delegate a self-contained task to opencode as a one-shot subagent, from any coding agent that can run a shell command.",
+  "author": {
+    "name": "jayden99236",
+    "url": "https://github.com/jayden99236"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayden99236/consult-opencode.git"
+  },
+  "homepage": "https://github.com/jayden99236/consult-opencode",
+  "keywords": ["opencode", "subagent", "delegation", "ai-agent", "mcp"],
+  "server": {
+    "type": "node",
+    "entry_point": "mcp-server.mjs",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/mcp-server.mjs"
+      ],
+      "env": {}
+    }
+  },
+  "tools": [
+    {
+      "name": "consult_opencode",
+      "description": "Delegate a self-contained task to opencode as an independent subagent."
+    }
+  ],
+  "license": "MIT"
+}
