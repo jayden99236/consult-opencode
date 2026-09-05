@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.2",
   "name": "consult-opencode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Delegate a self-contained task to opencode as a one-shot subagent, from any coding agent that can run a shell command.",
   "author": {
     "name": "jayden99236",
