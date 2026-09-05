@@ -4,9 +4,10 @@
   "description": "Delegate a self-contained task to opencode as a one-shot subagent, from any coding agent that can run a shell command.",
   "type": "module",
   "bin": {
-    "consult-opencode": "./consult-opencode.mjs"
+    "consult-opencode": "./consult-opencode.mjs",
+    "consult-opencode-mcp": "./mcp-server.mjs"
   },
-  "main": "consult-opencode.mjs",
+  "main": "lib.mjs",
   "engines": {
     "node": ">=18"
   },
@@ -20,6 +21,12 @@
     "subagent",
     "delegation",
     "ai-agent",
-    "cli"
-  ]
+    "cli",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.23.8"
+  }
 }
